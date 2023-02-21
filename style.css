@@ -1,0 +1,19 @@
+#productos{
+    width: 250px;
+    height: 200px;
+}
+
+svg{
+    fill:antiquewhite;
+    width: 70px;
+}
+
+.navarRedes{
+    display: flex;
+    flex-direction: column;
+}
+
+.derecha1{
+    display: flex;
+    
+}

@@ -1,31 +1,53 @@
 *{
-    padding: unset;
-    margin: unset;
+    padding: 0;
+    margin: 0;
+    
 }
-
+section{
+    margin: unset;
+    padding: unset;
+}
+header{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+footer{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
 .pag{
     background-color: black;
 }
-#contenttodo{
-    margin-top: 10vh;
-}
 
+
+/* @media (max-width: 991px){
+    .navbar-nav{
+        margin-top: 300px;
+    }
+} */
 
 
 #t2, h2{
     color:white;
     text-align: end;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 #t1, h1{
     color:white;
     text-align: end;
-    font-size: 6.5rem;
+    font-size: 5.5rem;
 }
 
 #navar{
-    position: fixed;
+    position: sticky;
     height: 10vh;
     width: 100%;
     z-index: 10;
@@ -33,10 +55,7 @@
     align-content: center;
     top:0;
 }
-.navbar-toggler{
-    position: absolute;
-    right:5%;
-}
+
 #productos{
     width: 250px;
     height: 200px;
@@ -51,15 +70,7 @@ svg{
     display: flex;
     
 }
-.contenedor1{
-    display: flex;
-    flex-direction: column;
-    margin: unset;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    gap: 5%
-}
+
 .footer{
     font-size: 1.5rem;
 }

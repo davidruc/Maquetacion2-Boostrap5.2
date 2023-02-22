@@ -1,3 +1,38 @@
+.pag{
+    background-color: black;
+}
+#contenttodo{
+    margin-top: 10vh;
+}
+.izq{
+    padding: 15%;
+}
+#t2, h2{
+    color:white;
+    text-align: end;
+    font-size: 2.5rem;
+}
+
+#t1, h1{
+    color:white;
+    text-align: end;
+    font-size: 4.5rem;
+}
+
+#navar{
+    position: fixed;
+    height: 10vh;
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    align-content: center;
+    top:0;
+}
+.navbar-toggler{
+    position: absolute;
+    right:5%;
+}
+
 #productos{
     width: 250px;
     height: 200px;
@@ -5,15 +40,24 @@
 
 svg{
     fill:antiquewhite;
-    width: 70px;
-}
-
-.navarRedes{
-    display: flex;
-    flex-direction: column;
+    width: 3rem;
 }
 
 .derecha1{
     display: flex;
     
 }
+.contenedor1{
+    display: flex;
+    flex-direction: column;
+    margin: unset;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 5%
+}
+
+/* .navbar-brand svg{
+    margin: unset;
+    padding: unset;
+}  */

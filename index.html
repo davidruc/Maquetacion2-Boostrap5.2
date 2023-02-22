@@ -41,22 +41,20 @@
 
 
 <div id="contenttodo" class="pag">
-    <section class="row col-12">
+    <section class="row col-12 m-0">
      
-        <div id="contizq" class="arriba row col-12 col-xl-6">
-            <div class="izq">
+        <div id="contizq" class="arriba row col-12 col-xl-6 mb-sm-5 mb-5 mb-xl-0">
+            <div class="izq d-flex flex-column justify-content-center align-items-xl-end align-items-sm-center   ">
                 <article>
-                    <h2 id="t2">DISFRUTA <br>DE NUESTROS </h2>
-                    <h1 id="t1">CAFES <br>DE ORIGEN</h1>
+                    <h2 id="t2" class="text-sm-center text-xl-end">DISFRUTA <br>DE NUESTROS </h2>
+                    <h1 id="t1"  class="text-sm-center text-center text-xl-end">CAFES <br>DE ORIGEN</h1>
                 </article>
-                <button>
-                    buy
-                </button>
+                <button type="button" class="btn btn-danger w-25">Encuéntralos aquí </button>
             </div>
         </div>
-        <div class="derecha row col-12 col-xl-6">
+        <div class="derecha row col-12 col-xl-6 d-flex justify-content-center">
               
-                <div id="carouselExampleControls" class="carousel slide col-12 col-xl-10 d-flex align-items-center" data-bs-ride="carousel">
+                <div id="carouselExampleControls" class="carousel slide col-12 col-xl-11 d-flex align-items-center" data-bs-ride="carousel">
                     <div class="carousel-inner">
                       <div class="carousel-item active">
                         <img src="./img/carusel1.png" class="d-block h-100  w-100 img-fluid" alt="...">
@@ -77,8 +75,9 @@
                       <span class="visually-hidden">Next</span>
                     </button>
                   </div>
-                  <nav id="navarRedes" class=" d-flex align-content-between navbar navbar-light col-12 col-xl-1">
+                  <nav id="navarRedes" class=" d-flex align-content-between navbar navbar-light col-sm-12   col-xl-1 ">
                     <div class="contenedor1">
+                    <!-- <div class="contenedor1 col-sm-3 d-inline-sm"> -->
                       <a class="navbar-brand"  href="#">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
                       </a>
@@ -99,12 +98,12 @@
            
             
         </div>
-        <div class="abajo bg-success">
-            <div class="tiposcafe row">
-                <img id="productos" src="./img/prod1.png"  class="figure-img img-fluid rounded" alt="">
-                <img id="productos" src="./img/prod2.png"  class="figure-img img-fluid rounded" alt="">
-                <img id="productos" src="./img/prod3.png"  class="figure-img img-fluid rounded" alt="">
-                <img id="productos" src="./img/prod4.png"  class="figure-img img-fluid rounded" alt="">
+        <div class="abajo">
+            <div class="tiposcafe row w-100 d-flex justify-content-center mt-5 mb-5">
+                <img id="productos" src="./img/prod1.png"  class="figure-img img-fluid rounded-circle" alt="">
+                <img id="productos" src="./img/prod2.png"  class="figure-img img-fluid rounded-circle" alt="">
+                <img id="productos" src="./img/prod3.png"  class="figure-img img-fluid rounded-circle" alt="">
+                <img id="productos" src="./img/prod4.png"  class="figure-img img-fluid rounded-circle" alt="">
                 
             </div>
         </div>
@@ -112,5 +111,10 @@
     </section>
 
   </div>
+  <footer>
+    <div class="footer d-flex justify-content-center p-5">
+    © Campus Juan Valdez
+    </div>
+  </footer>
 </body>
 </html>

@@ -1,22 +1,27 @@
+*{
+    padding: unset;
+    margin: unset;
+}
+
 .pag{
     background-color: black;
 }
 #contenttodo{
     margin-top: 10vh;
 }
-.izq{
-    padding: 15%;
-}
+
+
+
 #t2, h2{
     color:white;
     text-align: end;
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 #t1, h1{
     color:white;
     text-align: end;
-    font-size: 4.5rem;
+    font-size: 6.5rem;
 }
 
 #navar{
@@ -32,7 +37,6 @@
     position: absolute;
     right:5%;
 }
-
 #productos{
     width: 250px;
     height: 200px;
@@ -55,6 +59,9 @@ svg{
     align-items: center;
     height: 100%;
     gap: 5%
+}
+.footer{
+    font-size: 1.5rem;
 }
 
 /* .navbar-brand svg{

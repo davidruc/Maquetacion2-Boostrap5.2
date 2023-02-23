@@ -12,37 +12,49 @@
 <body>
   <div class="pagina">
     <header>
-        <nav id="navar" class="navbar navbar-expand-lg navbar-light d-flex align-items-center w-100">
-            <div class="container-fluid bg-light position-inline">
-              <img class="imglogo position-absolute" src="./img/logoJuanValdez.png" alt="">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon "></span>
-              </button>
-              <div class="collapse navbar-collapse justify-content-end  " id="navbarNav">
-                <ul class="navbar-nav ">
-                  <li class="nav-item align-self-center">
-                    <a class="nav-link active " aria-current="page" href="#">Café Empacado</a>
-                  </li>
-                  <li class="nav-item align-self-center">
-                    <a class="nav-link" href="#">Artículos de marca</a>
-                  </li>
-                  <li class="nav-item align-self-center">
-                    <a class="nav-link" href="#">Para regalar</a>
-                  </li>
-                  <li class="nav-item align-self-center">
-                    <a class="nav-link" href="#">Club Juan Valdez</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
+      <nav class="navbar navbar-expand-lg  navbar-light bg-light position-fixed w-100 py-4   ">
+        <div class="container-fluid d-flex justify-content-end align-items-end flex-column ">
+          <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+
+
+
+          <div class="collapse navbar-collapse  "  id="navbarNav">
+            
+            <ul class="navbar-nav align-items-end  ">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Café Empacado</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Artículos De Marca</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Para Regalar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Club Juan Valdez</a>
+              </li>
+              
+            </ul>
+          
+          </div>
+       
+        </div>
+        </div>
+      </nav>
+      <a id="imglogo" class="img position-fixed" href="#">
+        <img  src="/img/logoJuanValdez.png" alt="" >
+      </a>
     </header>
 
 
-<div id="contenttodo" class="pag container-fluid">
-    <section class="row w-100 ">
-        <div id="contizq" class="arriba row col-12 col-xl-6 mb-sm-5 mb-5 mb-xl-0 ">
-            <div class="izq d-flex flex-column justify-content-center align-items-center align-items-xl-end align-items-sm-center mt-sm-5 mt-5 pt-5 ">
+<div id="contenttodo" class="pag container-fluid position-absolute mt-5  ">
+    <section id="sect11" class="row w-100">
+      
+        <div  class="arriba row col-12 col-xl-6 mb-sm-5 mb-5 mb-xl-0 ">
+            <div id="contizq" class="izq d-flex flex-column justify-content-center align-items-center align-items-xl-end align-items-sm-center mt-sm-5 mt-5 pt-5 ">
                 <article>
                     <h2 id="t2" class="text-sm-center text-xl-end">DISFRUTA <br>DE NUESTROS </h2>
                     <h1 id="t1"  class="text-sm-center text-center text-xl-end">CAFES <br>DE ORIGEN</h1>
@@ -50,7 +62,8 @@
                 <button type="button" class="btn btn-danger p-2">Encuéntralos aquí </button>
             </div>
         </div>
-        <div class="derecha row col-12  col-xl-6 d-flex justify-content-center  container-fluid">
+     
+        <div id="dere1" class="derecha row col-12  col-xl-6 d-flex justify-content-center  container-fluid">
                 <div id="carouselExampleControls" class="carousel slide col-12 col-xl-11 d-flex align-items-center  w-75" data-bs-ride="carousel">
                     <div class="carousel-inner">
                       <div class="carousel-item active">
@@ -89,7 +102,7 @@
                   </nav>
         </div>
       </section>
-        <div class="tiposcafe container-fluid row w-100 d-flex justify-content-center mt-5 mb-4 p-0 bg-success">
+        <div id="tiposcafe2"class="tiposcafe container-fluid row w-100 d-flex justify-content-center mt-5 mb-4 p-0">
             
                 <img id="productos" src="./img/prod1.png"  class="figure-img img-fluid rounded-circle" alt="">
                 <img id="productos" src="./img/prod2.png"  class="figure-img img-fluid rounded-circle" alt="">
@@ -98,14 +111,17 @@
                 
          
         </div>
+        <footer>
+          <div class="footer d-flex justify-content-center p-5 position-relative bg-light">
+          © Campus Juan Valdez
+          </div>
+        </footer>
       </div>
+     
     
     </div>
+    
   </div>
-  <footer>
-    <div class="footer d-flex justify-content-center p-5 bg-warning">
-    © Campus Juan Valdez
-    </div>
-  </footer>
+
 </body>
 </html>
